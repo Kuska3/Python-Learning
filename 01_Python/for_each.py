@@ -24,3 +24,19 @@ items = [
 
 for item in items:
     print(item)
+
+fruits = {
+    "apple": "red",
+    "banana": "yellow",
+    "orange": "orange",
+    "grape": "purple",
+    "mango": "yellow",
+    "strawberry": "red",
+    "watermelon": "green",
+    "pineapple": "brown",
+    "kiwi": "brown",
+    "papaya": "orange",
+}
+
+for fruit, color in fruits.items():
+    print(f"The color of {fruit} is {color}.")
